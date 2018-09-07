@@ -1,0 +1,10 @@
+@InProceedings{ordonRep,
+  author = 	"Boussaha, Basma El Amal 
+                and Hernandez, Nicolas
+                and Christine, Jacquin
+                and Emmanuel, Morin ",
+  title = 	"Ordonnancement de réponses dans les systèmes de dialogue basé sur une similarité contexte/réponse",
+  booktitle = 	"Proceedings of 25th conférence sur le Traitement Automatique des Langues Naturelles (TALN'18)",
+  year = 	"2018",
+  location = 	"Rennes, France"
+}

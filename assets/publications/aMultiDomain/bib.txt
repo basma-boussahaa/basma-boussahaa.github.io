@@ -1,0 +1,9 @@
+@InProceedings{aMultiDomain,
+  author = 	"Hazem, Amir 
+                and Boussaha, Basma El Amal 
+                and Hernandez, Nicolas",
+  title = 	"A Multi-Domain Framework for Textual Similarity. A Case Study on Question-to-Question and Question-Answering Similarity Tasks ",
+  booktitle = 	"Proceedings of 11th edition of the Language Resources and Evaluation Conference (LREC’18)",
+  year = 	"2018",
+  location = 	"Miyazaki, Japan"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basma El Amel Boussaha</title>
+    <description>Natural Language Processing PhD student</description>
+    <link>basma-b.github.io</link>
+    <atom:link href="basma-b.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Ordonnancement de réponses dans les systèmes de dialogue basé sur une similarité contexte/réponse</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 May 2018 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/ordonRep/</link>
+        <guid isPermaLink="true">basma-b.github.io/ordonRep/</guid>
+      </item>
+    
+      <item>
+        <title>A Multi-Domain Framework for Textual Similarity. A Case Study on Question-to-Question and Question-Answering Similarity Tasks</title>
+        <description>
+</description>
+        <pubDate>Mon, 07 May 2018 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/aMultiDomain/</link>
+        <guid isPermaLink="true">basma-b.github.io/aMultiDomain/</guid>
+      </item>
+    
+      <item>
+        <title>Next utterance ranking based on context response similarity</title>
+        <description>
+</description>
+        <pubDate>Tue, 13 Mar 2018 00:00:00 +0100</pubDate>
+        <link>basma-b.github.io/nextUtterance/</link>
+        <guid isPermaLink="true">basma-b.github.io/nextUtterance/</guid>
+      </item>
+    
+      <item>
+        <title>MappSent at IJCNLP-2017 Task 5':' A Textual Similarity Approach Applied to Multi-choice Question Answering in Examinations</title>
+        <description>
+</description>
+        <pubDate>Mon, 04 Sep 2017 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/mapSentAt/</link>
+        <guid isPermaLink="true">basma-b.github.io/mapSentAt/</guid>
+      </item>
+    
+      <item>
+        <title>MappSent':' a Textual Mapping Approach for Question-to-Question Similarity</title>
+        <description>
+</description>
+        <pubDate>Mon, 04 Sep 2017 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/mapSent/</link>
+        <guid isPermaLink="true">basma-b.github.io/mapSent/</guid>
+      </item>
+    
+      <item>
+        <title>Thread Reconstruction in Conversational Data using Neural Coherence Models</title>
+        <description>
+</description>
+        <pubDate>Fri, 11 Aug 2017 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/threadRecons/</link>
+        <guid isPermaLink="true">basma-b.github.io/threadRecons/</guid>
+      </item>
+    
+      <item>
+        <title>Exploitation des plongements de mots pour l’analyse d’opinion et du langage</title>
+        <description>
+</description>
+        <pubDate>Mon, 26 Jun 2017 00:00:00 +0200</pubDate>
+        <link>basma-b.github.io/exploitPlong/</link>
+        <guid isPermaLink="true">basma-b.github.io/exploitPlong/</guid>
+      </item>
+    
+  </channel>
+</rss>

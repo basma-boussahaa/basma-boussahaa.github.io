@@ -1,1 +1,203 @@
-hello
+---
+layout: default
+title: Basma El Amel Boussaha
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+.space { margin-top: 20px; }
+
+u {
+    text-decoration: underline;
+}
+
+:link {
+    margin-right: 5px;
+}
+.about {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+
+.about img {
+    margin-right: 15px;
+    display:inline-block;
+    width: 200px;
+}
+
+.about p {
+    display:inline-block;
+  	vertical-align:top;
+    width:60%;
+    margin: 0;
+    padding: 0;
+}
+
+.about a:hover {
+	color: #666;
+}
+
+
+.publication {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.publication img {
+    margin-right: 5px;
+    display:inline-block;
+    width:14%;
+    clear:left;
+    display:inline-block;
+  	vertical-align:top;
+}
+
+.publication p {
+    display:inline-block;
+    width:84%;
+    font-size: 13px;
+  	vertical-align:top;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+</style>
+
+<div class="about">
+<img src="images/Basma.jpg" />
+<p> I am a PhD student at the <a href="http://www.univ-nantes.fr/english-version/">University of Nantes,</a>in the <a href="http://taln.ls2n.fr/">TALN</a>team (an old <a href="http://www.lina.univ-nantes.fr/IMG/jpg/photoequipetaln-sep2015.jpg">pic</a>) part of the <a href="https://www.ls2n.fr/?lang=en">LS2N</a>lab. I work on neural conversational systems (chatbots) with deep neural networks under the supervision of <a href="http://pagesperso.ls2n.fr/~morin-e/">Emmanuel Morin,</a> Christine Jacquin and <a href="https://sites.google.com/site/nicolashernandez/">Nicolas Hernandez.</a>
+<br>
+I graduated from <a href="https://www.universite-paris-saclay.fr/en">Paris-Saclay University</a> in 2016 with a Master 2 <a href="https://www.universite-paris-saclay.fr/en/node/5547#presentation-m2">CILS</a>and from <a href="http://esi.dz/">École Nationale Supérieure d'Informatique</a>in 2015 with an engineer diploma.
+
+<br>
+More details can be found in my <a href= assets/cv.pdf >resume.</a>
+</div>
+
+<b> Interests: </b> Neural conversational systems, image captioning, variational inference, probabilistic graphical models, metric learning and representation learning.
+
+<div class="space"></div>
+
+
+<a class="link" style="color: white; background: #e41a1c;" href="mailto:basma.boussaha@univ-nantes.fr">basma.boussaha@univ-nantes.fr</a>
+<a class="link" href="https://scholar.google.fr/citations?hl=en&pli=1&user=i6dzV84AAAAJ" style="color: white; background: #C63D2D;">  Google Scholar</a>
+{% comment %}<a class="link" href="https://docs.google.com/document/d/1dxBLg7XrOXiaV5JBzy8Vgs3GJb0csqHvmQ_BFKYa9ls/edit?usp=sharing" style="color: white; background: #984ea3;">CV</a>{% endcomment %}
+<a class="link" href="https://github.com/basma-b" style="color: white; background: #0E53A7;">  GitHub</a>
+<a class="link" href="https://www.linkedin.com/in/basma-b/" style="color: white; background: #4875B4;">  LinkedIn</a>
+<a class="link" href="https://twitter.com/BasmaEAB" style="color: white; background: #00aced;">  Twitter</a>
+
+
+
+<hr>
+
+<h3>Publications</h3>
+<a id="publications"></a>
+
+
+
+  {% for publication in site.posts %}
+  	{% if publication.type == "paper" %}  
+	
+  	<div class="publication">
+    		{% if publication.image %}
+	  			<img src="{{publication.image}}" />
+		{% else %}
+			  	<img src="/media/dummywhite.jpg" />
+		{% endif %}
+
+   	<p>
+	    <b><a style="color:#525252; padding:0px 0px" href={{publication.paper}} >{{ publication.title }}</b></a>
+	    <br>
+		{{ publication.author }}
+		<br>
+		{{ publication.journal }},  {{ publication.year }}<br>
+
+		{% if publication.paper %}
+	  			<a class="link" href={{publication.paper}}  style="color: white;background: #840000">PDF</a>
+		{% endif %}
+
+		{% if publication.proceedings %}
+	  			<a class="link" href={{publication.proceedings}}  style="color: white;background: #984ea3">In proceedings</a>
+		{% endif %}
+
+		
+        {% if publication.slides %}
+	  			<a class="link" href={{publication.slides}}  style="color: white;background: #009900">Slides</a>
+		{% endif %}
+
+
+		{% if publication.code %}
+	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7">Code</a>
+		{% endif %}
+
+		{% if publication.website %}
+	  			<a class="link" href={{publication.website}}  style="color: white;background: #d94801">Website</a>
+		{% endif %}
+		
+		{% if publication.poster %}
+	  			<a class="link" href={{publication.poster}}  style="color: white;background: #d94801">Poster</a>
+                {% endif %}
+
+    {% if publication.blog %}
+          <a class="link" href={{publication.blog}}  style="color: white;background: #984ea3">Blog</a>
+    {% endif %}
+
+    {% if publication.bibtex %}
+	  			<a class="link" href="{{publication.bibtex}}" style="color: white; background: #e41a1c;">Bibtex</a>
+		{% endif %}
+
+
+ 	</p>
+ 	</div>​
+  {% endif %}
+{% endfor %}
+
+<hr>
+<a id="teaching"></a>
+<h3>Teaching</h3>
+
+Below you can find some of the material I used for courses and workshops where I have teached.
+
+
+<br>
+<br>
+
+<div class="publication">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/IUT_de_Nantes.gif" />
+    <p>     
+      <b>Introduction to algorithmic</b><br>
+        Programming Exercises (Theano/Lasagne) for the Deep Learning Graduate Course at the Technical University of Denmark running in the Fall of 2016
+        <br>
+    </p>
+</div>​
+
+
+
+<div class="publication">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/IUT_de_Nantes.gif" />
+    <p>     
+      <b>Object oriented programming</b><br>
+              Programming Exercises (Theano/Lasagne) for the 2016 Nvidia Deep Learning Summercamp in London.
+              <br>
+        
+    </p>
+</div>​
+
+<div class="publication">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/IUT_de_Nantes.gif" />
+    <p>     
+      <b>Data structure and fundamental algorithms</b>
+      <br>
+              Programming Exercises (Theano/Lasagne) for the 2015 Deep Learning Summer school at the Technical University of Denmark. Exercises for low level implementation of a ConvNet in Numpy and high level Theano/Lasagne exercises. 
+              <br>
+        
+    </p>
+</div>​
+<hr>

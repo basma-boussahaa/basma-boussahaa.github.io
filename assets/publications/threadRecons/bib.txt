@@ -1,0 +1,10 @@
+@InProceedings{threadRecons,
+  author = 	"Nguyen, Dat Tien 
+                and Joty, Shafiq 
+                and Boussaha, Basma El Amel 
+                and de Rijke, Maarten",
+  title = 	"Thread Reconstruction in Conversational Data using Neural Coherence Models ",
+  booktitle = 	"Proceedings of the SIGIR Workshop on Neural Information Retrieval (Neu-IR'17)",
+  year = 	"2017",
+  location = 	"Tokyo, Japan"
+}

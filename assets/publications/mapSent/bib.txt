@@ -1,0 +1,9 @@
+@InProceedings{mapSent,
+  author = 	"Hazem, Amir 
+                and Boussaha, Basma El Amal 
+                and Hernandez, Nicolas",
+  title = 	"MappSent: a Textual Mapping Approach for Question-to-Question Similarity ",
+  booktitle = 	"Proceedings of Recent Advances in Natural Language Processing (RANLP'17)",
+  year = 	"2017",
+  location = 	"Varna, Bulgaria"
+}
