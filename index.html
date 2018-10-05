@@ -115,44 +115,44 @@ More details can be found in my <a href= assets/cv.pdf >resume.</a>
 		{% endif %}
 
    	<p>
-	    <b><a style="color:#525252; padding:0px 0px" href={{publication.paper}} >{{ publication.title }}</b></a>
+	    <b><a style="color:#525252; padding:0px 0px" href={{publication.paper}} target="_blank" >{{ publication.title }}</b></a>
 	    <br>
 		{{ publication.author }}
 		<br>
 		{{ publication.journal }},  {{ publication.year }}<br>
 
 		{% if publication.paper %}
-	  			<a class="link" href={{publication.paper}}  style="color: white;background: #840000">PDF</a>
+	  			<a class="link" href={{publication.paper}}  style="color: white;background: #840000" target="_blank">PDF</a>
 		{% endif %}
 
 		{% if publication.proceedings %}
-	  			<a class="link" href={{publication.proceedings}}  style="color: white;background: #984ea3">In proceedings</a>
+	  			<a class="link" href={{publication.proceedings}}  style="color: white;background: #984ea3" target="_blank">In proceedings</a>
 		{% endif %}
 
 		
         {% if publication.slides %}
-	  			<a class="link" href={{publication.slides}}  style="color: white;background: #009900">Slides</a>
+	  			<a class="link" href={{publication.slides}}  style="color: white;background: #009900" target="_blank">Slides</a>
 		{% endif %}
 
 
 		{% if publication.code %}
-	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7">Code</a>
+	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7" target="_blank">Code</a>
 		{% endif %}
 
 		{% if publication.website %}
-	  			<a class="link" href={{publication.website}}  style="color: white;background: #d94801">Website</a>
+	  			<a class="link" href={{publication.website}}  style="color: white;background: #d94801" target="_blank">Website</a>
 		{% endif %}
 		
 		{% if publication.poster %}
-	  			<a class="link" href={{publication.poster}}  style="color: white;background: #d94801">Poster</a>
+	  			<a class="link" href={{publication.poster}}  style="color: white;background: #d94801" target="_blank">Poster</a>
                 {% endif %}
 
     {% if publication.blog %}
-          <a class="link" href={{publication.blog}}  style="color: white;background: #984ea3">Blog</a>
+          <a class="link" href={{publication.blog}}  style="color: white;background: #984ea3" target="_blank">Blog</a>
     {% endif %}
 
     {% if publication.bibtex %}
-	  			<a class="link" href="{{publication.bibtex}}" style="color: white; background: #e41a1c;">Bibtex</a>
+	  			<a class="link" href="{{publication.bibtex}}" style="color: white; background: #e41a1c;" target="_blank">Bibtex</a>
 		{% endif %}
 
 
