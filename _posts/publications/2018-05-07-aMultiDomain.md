@@ -9,6 +9,8 @@ paper: http://www.lrec-conf.org/proceedings/lrec2018/pdf/34.pdf
 <!--code: https://github.com/larsmaaloee/auxiliary-deep-generative-models-->
 bibtex: assets/publications/aMultiDomain/bib.txt
 image: assets/publications/aMultiDomain/aMultiDomain.png
+poster: assets/publications/aMultiDomain/poster.pdf
+code: https://github.com/hazemAmir/StackExchange
 type: paper
 ---
 
