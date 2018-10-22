@@ -67,8 +67,8 @@ sass:
 # Use the following plug-ins
 #gems:
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-seo-tag
 
 #plugins:
   #- jekyll-seo-tag

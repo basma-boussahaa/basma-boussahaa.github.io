@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-sitemap.git
+  revision: 1fd7a0fca614bc2184cb71ee5c9e878c332c0111
+  specs:
+    jekyll-sitemap (1.2.0)
+      jekyll (~> 3.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,8 +147,6 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
-    jekyll-sitemap (1.2.0)
-      jekyll (~> 3.3)
     jekyll-swiss (0.4.0)
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
@@ -245,6 +250,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-seo-tag
+  jekyll-sitemap!
   redcarpet
 
 BUNDLED WITH
