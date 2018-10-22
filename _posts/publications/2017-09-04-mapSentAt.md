@@ -9,6 +9,7 @@ paper: http://www.aclweb.org/anthology/I17-4034
 <!--code: https://github.com/larsmaaloee/auxiliary-deep-generative-models-->
 bibtex: assets/publications/mapSentAt/bib.txt
 image: assets/publications/mapSentAt/mapSentAt.png
+slides: assets/publications/mapSentAt/slides.pdf
 type: paper
 ---
 
