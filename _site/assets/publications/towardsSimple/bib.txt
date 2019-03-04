@@ -1,0 +1,10 @@
+@InProceedings{towardsSimple,
+  author =      Boussaha, Basma El Amal 
+                and Hernandez, Nicolas,
+                and Jacquin, Christine,
+                and Morin, Emmanuel",
+  title = 	"Towards Simple but Efficient Next Utterance Ranking",
+  booktitle = 	"Proceedings of the 20th International Conference on Computational Linguistics and Intelligent Text Processing (CICLING'2019)",
+  year = 	"2019",
+  location = 	"La Rochelle, France"
+}
