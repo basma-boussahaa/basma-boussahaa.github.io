@@ -7,7 +7,7 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Towards Simple but Efficient Next Utterance Ranking (to appear)</title>
+        <title>Towards Simple but Efficient Next Utterance Ranking</title>
         <description>
 </description>
         <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
