@@ -1,0 +1,9 @@
+@article{endToEnd,
+  author =      Boussaha, Basma El Amal 
+                and Hernandez, Nicolas,
+                and Jacquin, Christine,
+                and Morin, Emmanuel",
+  title = 	"End-to-End Response Selection Based on Multi-Level Context Response Matching",
+  journal = "Computer Speech & Language",
+  year = 	"2020"
+}
