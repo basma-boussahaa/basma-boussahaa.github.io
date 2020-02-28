@@ -7,6 +7,24 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>End-to-End Response Selection Based on Multi-Level Context Response Matching</title>
+        <description>
+</description>
+        <pubDate>Sat, 01 Feb 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/endToEnd/</link>
+        <guid isPermaLink="true">http://localhost:4000/endToEnd/</guid>
+      </item>
+    
+      <item>
+        <title>&lt;b&gt;Thesis&lt;/b&gt; Response Selection for End-to-End Retrieval-Based Dialogue Systems</title>
+        <description>
+</description>
+        <pubDate>Wed, 23 Oct 2019 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/thesis/</link>
+        <guid isPermaLink="true">http://localhost:4000/thesis/</guid>
+      </item>
+    
+      <item>
         <title>Deep Retrieval-Based Dialogue Systems A Short Review</title>
         <description>
 </description>
@@ -76,24 +94,6 @@
         <pubDate>Mon, 04 Sep 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/mapSent/</link>
         <guid isPermaLink="true">http://localhost:4000/mapSent/</guid>
-      </item>
-    
-      <item>
-        <title>Thread Reconstruction in Conversational Data using Neural Coherence Models</title>
-        <description>
-</description>
-        <pubDate>Fri, 11 Aug 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/threadRecons/</link>
-        <guid isPermaLink="true">http://localhost:4000/threadRecons/</guid>
-      </item>
-    
-      <item>
-        <title>Exploitation des plongements de mots pour l’analyse d’opinion et du langage</title>
-        <description>
-</description>
-        <pubDate>Mon, 26 Jun 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/exploitPlong/</link>
-        <guid isPermaLink="true">http://localhost:4000/exploitPlong/</guid>
       </item>
     
   </channel>

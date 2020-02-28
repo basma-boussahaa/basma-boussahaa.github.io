@@ -1,0 +1,7 @@
+@phdthesis{Boussaha2019thesis,
+    title    = {Response Selection for End-to-End Retrieval-Based Dialogue Systems},
+    school   = {Universite de Nantes},
+    author   = {Boussaha, Basma El Amel},
+    year     = {2019},
+    type     = {{PhD} dissertation},
+}

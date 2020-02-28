@@ -1,7 +1,7 @@
 @InProceedings{multiLevel,
-  author =      Boussaha, Basma El Amal 
-                and Hernandez, Nicolas,
-                and Jacquin, Christine,
+  author =      Boussaha, Basma El Amel
+                and Hernandez, Nicolas
+                and Jacquin, Christine
                 and Morin, Emmanuel",
   title = 	"Multi-level Context Response Matching in Retrieval-Based Dialog Systems",
   booktitle = 	"Proceedings of 7th edition of DSTC workshop at AAAI'19",
