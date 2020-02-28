@@ -1,5 +1,5 @@
 @InProceedings{ordonRep,
-  author = 	"Boussaha, Basma El Amal 
+  author = 	"Boussaha, Basma El Amel,
                 and Hernandez, Nicolas
                 and Christine, Jacquin
                 and Emmanuel, Morin ",

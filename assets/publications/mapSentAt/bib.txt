@@ -1,6 +1,6 @@
 @InProceedings{mapSentAt,
   author = 	"Hazem, Amir 
-                and Boussaha, Basma El Amal 
+                and Boussaha, Basma El Amel 
                 and Hernandez, Nicolas",
   title = 	"MappSent at IJCNLP-2017 Task 5: A Textual Similarity Approach Applied to Multi-choice Question Answering in Examinations",
   booktitle = 	"Proceedings of Recent Advances in Natural Language Processing Shared Tasks (RANLP'17)",

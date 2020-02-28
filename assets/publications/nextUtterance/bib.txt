@@ -1,7 +1,7 @@
 @InProceedings{nextUtterance,
-  author =      Boussaha, Basma El Amal 
-                and Hernandez, Nicolas,
-                and Jacquin, Christine,
+  author =      Boussaha, Basma El Amel
+                and Hernandez, Nicolas
+                and Jacquin, Christine
                 and Morin, Emmanuel",
   title = 	"Next Utterance Ranking Based On Context Response Similarity",
   booktitle = 	"Proceedings of the Machine Learning and Data Analytics (MLDAS'18)",
