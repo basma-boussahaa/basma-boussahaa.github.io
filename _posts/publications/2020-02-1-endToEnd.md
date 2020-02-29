@@ -5,7 +5,7 @@ author: <u>Basma El Amel Boussaha</u>, Nicolas Hernandez, Christine Jacquin, Emm
 year: 2020
 key: 2020.2
 journal: Computer Speech & Language Journal(CS&L)
-<!-- paper: https://arxiv.org/pdf/1907.12878.pdf -->
+paper: https://www.sciencedirect.com/science/article/pii/S0885230820300139
 <!-- poster: assets/publications/towardsSimple/poster.pdf -->
 <!-- slides: assets/publications/nextUtterance/slides.pdf -->
 <!-- blog: https://basmaboussaha.wordpress.com/2017/10/18/implementation-of-dual-encoder-using-keras/ -->
