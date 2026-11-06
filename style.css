@@ -175,10 +175,12 @@ em { font-style: italic; }
 
 @media (max-width: 920px) {
   .hero { padding-top: 40px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
-  .hero-photo { justify-self: start; max-width: 220px; }
+  /* Small photo pinned top-right, beside the name */
+  .hero-grid { --ph: clamp(88px, 24vw, 170px); grid-template-columns: 1fr; gap: 0; }
+  .hero-photo { position: absolute; top: 0; right: 24px; width: var(--ph); max-width: none; }
+  .arch { outline-offset: 4px; border-radius: 999px 999px 14px 14px; }
   .hero-text { display: flex; flex-direction: column; align-items: flex-start; }
-  .hero h1 { order: -1; margin: 0 0 18px; }
+  .hero h1 { order: -1; margin: 0 0 18px; padding-right: calc(var(--ph) + 14px); min-height: calc(var(--ph) * 1.25 - 18px); }
   .eyebrow { margin-bottom: 22px; }
   .hero-cta { margin-top: 28px; }
   .stats { grid-template-columns: 1fr 1fr; }
@@ -186,7 +188,8 @@ em { font-style: italic; }
   .stats > div:nth-child(n+3) { border-top: 1px solid var(--line); }
 }
 @media (max-width: 480px) {
-  .hero-photo { max-width: 180px; }
+  .hero-photo { right: 16px; }
+  .hero h1 { font-size: clamp(34px, 10.5vw, 48px); }
   .stats > div { padding: 20px 14px; }
 }
 
