@@ -76,7 +76,7 @@ const PUBS = [
     title: 'Response Selection for End-to-End Retrieval-Based Dialogue Systems',
     authors: 'Basma El Amel Boussaha',
     venue: 'PhD thesis · Université de Nantes', badge: 'Thesis',
-    links: { PDF: 'assets/publications/thesis/thesis.pdf', Slides: 'assets/publications/thesis/slides.pptx' } },
+    links: { PDF: 'https://hal.science/tel-02926608/file/Boussaha_thesis_final%20%281%29.pdf', Slides: 'assets/publications/thesis/slides.pptx' } },
   { year: 2019, tags: ['dialogue'],
     title: 'Deep Retrieval-Based Dialogue Systems: A Short Review',
     authors: 'Basma El Amel Boussaha, N. Hernandez, C. Jacquin, E. Morin',
