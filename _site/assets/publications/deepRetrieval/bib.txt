@@ -1,9 +1,0 @@
-@InProceedings{deepRetrieval,
-  author =      Boussaha, Basma El Amel 
-                and Hernandez, Nicolas
-                and Jacquin, Christine
-                and Morin, Emmanuel",
-  title = 	"Deep Retrieval-Based Dialogue Systems: A Short Review",
-  booktitle = 	"arXiv preprint arXiv:1907.12878",
-  year = 	"2019"
-}
