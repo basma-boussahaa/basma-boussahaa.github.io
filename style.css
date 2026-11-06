@@ -396,3 +396,9 @@ em { font-style: italic; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Role history and tool stack in the experience timeline */
+.timeline .roles { line-height: 1.7; }
+.timeline .roles .muted { color: var(--muted); font-size: .92em; }
+.stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.stack span { font: 500 12px/1 var(--mono); padding: 5px 9px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); background: var(--surface); }
